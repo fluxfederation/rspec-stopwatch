@@ -3,7 +3,7 @@ require_relative './lib/rspec/stopwatch/version'
 Gem::Specification.new do |s|
   s.name = 'rspec-stopwatch'
   s.version = RSpec::Stopwatch::VERSION
-  s.licenses = ['BSD-3-Clause']
+  s.license = 'MIT'
 
   s.summary = 'Ruby gem for writing performance specs'
   s.description = 'Provides a matcher that checks the run time of a block'
