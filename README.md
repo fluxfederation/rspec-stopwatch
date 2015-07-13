@@ -1,10 +1,10 @@
 # Stopwatch (Ruby gem)
 
-Gem for writing performance specs.
+RSpec matcher to help with writing performance specs.
 
 ## Setup
 
-Add the following line to your Gemfile: `gem 'rspec-stopwatch', github: 'powershop/rspec-stopwatch'`
+Add the following line to your Gemfile: `gem 'rspec-stopwatch'`
 
 Include the gem in your spec file (or helper): `require 'rspec/stopwatch'`
 

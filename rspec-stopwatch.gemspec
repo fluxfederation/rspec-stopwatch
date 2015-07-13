@@ -5,8 +5,8 @@ Gem::Specification.new do |s|
   s.version = RSpec::Stopwatch::VERSION
   s.license = 'MIT'
 
-  s.summary = 'Provides a matcher that checks the run time of a block'
-  s.description = 'Provides a matcher that checks the run time of a block'
+  s.summary = 'RSpec matcher to help with writing performance specs'
+  s.description = 'Provides a matcher that checks the run time of a block and expects it to be under a certain time'
   s.homepage = 'https://github.com/powershop/rspec-stopwatch'
 
   s.authors = ['Henry J. Wylde']
