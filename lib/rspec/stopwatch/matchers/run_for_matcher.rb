@@ -10,7 +10,7 @@ RSpec::Matchers.define :run_for do |time|
     end
   end
 
-  class RunForComparedTo < RSpec::Matchers::BuiltIn::BaseMatcher
+  class RunForComparedTo
     attr_reader :operator, :expected, :actual, :config
 
     def initialize(operator, expected)
