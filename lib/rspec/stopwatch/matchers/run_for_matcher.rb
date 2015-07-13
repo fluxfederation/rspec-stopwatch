@@ -28,6 +28,7 @@ RSpec::Matchers.define :run_for do |time|
         benchmark = Benchmark.measure { runs.each { block.call } }
 
         @actual = benchmark.total / runs.count
+        $stderr.puts "#{RSpec.current_example.full_description} #{actual_str}"
         @actual.in_milliseconds.send(operator, expected.in_milliseconds)
       rescue ArgumentError
         false
