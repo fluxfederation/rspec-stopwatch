@@ -1,4 +1,4 @@
-require 'rspec-stopwatch'
+require 'rspec/stopwatch'
 
 describe :run_for, :matcher => true do
   describe 'timing' do
