@@ -4,7 +4,7 @@ Gem for writing performance specs.
 
 ## Setup
 
-Add the following line to your Gemfile: `gem 'rspec-stopwatch', git: 'git@git.powershop.co.nz:hjwylde/rspec-stopwatch-gem.git'`
+Add the following line to your Gemfile: `gem 'rspec-stopwatch', github: 'powershop/rspec-stopwatch'`
 
 Include the gem in your spec file (or helper): `require 'rspec/stopwatch'`
 
