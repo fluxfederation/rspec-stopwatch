@@ -1,5 +1,8 @@
 # Stopwatch (Ruby gem)
 
+[![Build Status](https://travis-ci.org/powershop/rspec-stopwatch.svg?branch=master)](https://travis-ci.org/powershop/rspec-stopwatch)
+[![Release](https://img.shields.io/github/release/powershop/rspec-stopwatch.svg)](https://github.com/powershop/rspec-stopwatch/releases/latest)
+
 RSpec matcher to help with writing performance specs.
 
 ## Setup
