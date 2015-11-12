@@ -1,4 +1,4 @@
-require_relative './lib/rspec/stopwatch/version'
+require './lib/rspec/stopwatch/version'
 
 Gem::Specification.new do |s|
   s.name = 'rspec-stopwatch'

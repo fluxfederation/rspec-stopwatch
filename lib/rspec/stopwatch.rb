@@ -1,4 +1,4 @@
 require 'rspec'
 
-require_relative './stopwatch/matchers/run_for_matcher'
+require 'rspec/stopwatch/matchers/run_for_matcher'
 
